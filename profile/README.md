@@ -17,10 +17,25 @@ contribute](#methods-and-education)
 > student or collaborator who leads their development, preserving authorship,
 > issue history, and maintenance responsibility.
 
-## Start here
+## Flagship AI-for-thermal ecosystem
+
+The NED³ flagship platform is [Thermal AI Commons](https://github.com/UARK-NED3/Thermal-AI-Commons), an interoperability hub for trustworthy AI in boiling, thermal-fluid, and energy systems. It connects versioned datasets, physics-aware processing, computer-vision feature extraction, and temporal-learning tools without merging their repositories or changing their licenses.
+
+```text
+BoilingBench-Multimodal → BoilingLab → BubbleID/BubbleID-Flow → SeqReg
+                                  ↘ Thermal AI Commons evidence reports
+```
+
+Use the Commons for shared data contracts, synchronization/provenance records,
+benchmark splits, compatibility pinning, and reproducible evidence reports.
+Use each component's canonical repository for installation, issues, releases,
+and scientific limitations.
+
+### Start here
 
 | Research need | Resource | Current role |
 | --- | --- | --- |
+| Start an AI-for-thermal workflow | [Thermal AI Commons](https://github.com/UARK-NED3/Thermal-AI-Commons) | Flagship interoperability hub for datasets, processing tools, model adapters, and leakage-safe evaluation. |
 | Build and assess a CFD surrogate model | [CFDTwin](https://github.com/UARK-NED3/CFDTwin) | Released Python/GUI workflow for DOE, Fluent simulations, surrogate training, and analysis. |
 | Reproduce or extend pool-boiling analysis | [BoilingLab](https://github.com/UARK-NED3/BoilingLab) | Experimental protocols, data-reduction guidance, scripts, and example materials. |
 | Develop fair thermal-ML comparisons | [BoilingBench-Multimodal](https://github.com/UARK-NED3/BoilingBench-Multimodal) | Seed benchmark framework with task definitions, split logic, and leakage controls. |
@@ -51,9 +66,12 @@ record for access conditions and the authoritative citation.
 ## Benchmarks
 
 [BoilingBench-Multimodal](https://github.com/UARK-NED3/BoilingBench-Multimodal)
-is a seed benchmark framework. It specifies tasks, metadata, split rules,
-baseline expectations, and contribution mechanisms; a fully reusable benchmark
-release also requires public, versioned raw-data archives and DOIs.
+is the flagship boiling dataset and benchmark entry point. It specifies tasks,
+metadata, split rules, baseline expectations, and contribution mechanisms; its
+public Lite snapshot is distributed through Hugging Face and archived on
+[Zenodo](https://doi.org/10.5281/zenodo.22131859). The [Thermal AI
+Commons](https://github.com/UARK-NED3/Thermal-AI-Commons) repository provides
+the cross-component contracts and evidence workflow.
 
 ## Methods and education
 
