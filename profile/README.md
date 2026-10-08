@@ -1,8 +1,8 @@
 # NED³ Laboratory
 
-![Illustration of the NED³ research ecosystem: thermal-fluid experiments and
-simulation become multimodal datasets, software, and benchmarkable engineering
-models.](../assets/ned3-research-ecosystem.png)
+![NED³ imaging banner: a grayscale micrograph of a dendritic surface
+structure, a high-speed image of bubbles, and an infrared thermal map of a
+heated test plate.](../assets/ned3-lab-banner.png)
 
 The **NED³ Laboratory** at the University of Arkansas develops reusable
 research objects for thermal-fluid systems, multimodal sensing, and AI-enabled
