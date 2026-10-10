@@ -50,6 +50,12 @@ surrogate models, then browse the [NED³ software catalog](https://ned3.uark.edu
 for the broader portfolio. Every repository states its own installation path,
 license, citation guidance, and limitations.
 
+The [software portfolio roadmap](../docs/software-portfolio-roadmap.md) describes
+how NED³ will connect independently maintained packages through explicit evidence
+boundaries, reproducibility records, and shared interfaces. It is a proposed
+development roadmap, not a claim that every planned product is released or
+validated.
+
 ## Datasets
 
 **NED³ datasets are archived and cited on their canonical DOI-hosting
